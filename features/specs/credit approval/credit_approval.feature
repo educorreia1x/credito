@@ -7,8 +7,8 @@ Funcionalidade: Aprovacao de credito
 
     Cenario: Credito aprovado
         Quando os dados recebidos atende requisitos para aumento de limite
-        Entao o sistema deve enviar um e-mail com a mensagem "Parabens, seu limite foi aprovado"
+        Entao o sistema deve enviar um e-mail com a mensagem "Parabens, seu limite foi aprovado!"
 
     Cenario: Credito recusado
         Quando os dados recebidos nao atende requisitos para aumento de limite
-        Entao o sistema deve enviar um e-mail com a mensagem "Infelizmente seu limite nao foi aprovado pela equipe de analise, tente novamente no periodo de 60 dias! Obrigado."
+        Entao o sistema deve enviar um e-mail com a mensagem "Infelizmente seu limite nao foi aprovado pela equipe de analise, tente novamente apos o periodo de 60 dias! Obrigado."
